@@ -1,0 +1,12 @@
+curl --location 'https://eve.idfy.com/v3/tasks/sync/verify_with_source/ind_pan' \
+--header 'Content-Type: application/json' \
+--header 'api-key: <API-Key>' \
+--data '{
+    "task_id": "<task_id>",
+    "group_id": "<group_id>",
+    "data": {
+        "id_number": "<Pan Card Number>",
+        "full_name": "Name as per the pan document",
+        "dob": "YYYY-MM-DD"
+    }
+}'
