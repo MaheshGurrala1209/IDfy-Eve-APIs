@@ -1,0 +1,3 @@
+curl --location 'https://eve.idfy.com/v3/tasks?request_id=<request_id>' \
+--header 'Content-Type: application/json' \
+--header 'api-key: <api-key>'
